@@ -1,0 +1,12 @@
+%% This file is `GIlogo.sty'  
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{GIlogo}[2000/11/06 0.1 ETH Logo command]
+\RequirePackage{graphicx}
+\ifx\pdfoutput\undefined  % not running pdflatex
+  \newcommand{\GIlogo}[1][\textwidth]{\resizebox{#1}{!}{\includegraphics{GI_logo_color.eps}}}
+\else
+  \newcommand{\GIlogo}[1][\textwidth]{\resizebox{#1}{!}{\includegraphics{GI_logo_color.pdf}}}
+\fi
+\endinput
+%%
+%% End of file `GIlogo.sty'
