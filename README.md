@@ -1,7 +1,7 @@
 Letter heads for the University of Alaska Fairbanks and its Geophysical Institute
 =================================================================================
 
-This provides two classes, [UAFletter.cls] and [GIletter.cls], which
+This provides two classes, `UAFletter.cls` and `GIletter.cls`, which
 only differ in their respective logos. 
 
 The classes are based on the [ETHbrief package](http://www.sg.ethz.ch/downloads/LaTeX).
