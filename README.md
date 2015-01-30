@@ -7,7 +7,7 @@ only differ in their respective logos.
 The classes are based on the [ETHbrief package](http://www.sg.ethz.ch/downloads/LaTeX).
 
 `EXAMPLE.sty` provides an example style file for these classes and is 
-where your personal information gets stored. You should coppy it to `YOURNAME.sty` and
+where your personal information gets stored. You should copy it to `YOURNAME.sty` and
 edit it to reflect your details (e.g. address, phone number).
 
 To invoke the GI letter:
@@ -25,4 +25,7 @@ and for UAF letter:
 ```
 
 
+Contributors:
+-------------
 Andy Aschwanden, University of Alaska Fairbanks
+Joseph H Kennedy, University of Alaska Fairbanks
