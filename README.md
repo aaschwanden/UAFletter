@@ -27,5 +27,5 @@ and for UAF letter:
 
 Contributors:
 -------------
-* Andy Aschwanden, University of Alaska Fairbanks
+* Andy Aschwanden [creator], University of Alaska Fairbanks
 * Joseph H Kennedy, University of Alaska Fairbanks
