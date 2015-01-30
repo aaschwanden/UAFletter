@@ -6,7 +6,7 @@ only differ in their respective logos.
 
 The classes are based on the [ETHbrief package](http://www.sg.ethz.ch/downloads/LaTeX).
 
-The style file `EXAMPLE.sty` provides an example style file for these classes and is 
+`EXAMPLE.sty` provides an example style file for these classes and is 
 where your personal information gets stored. You should coppy it to `YOURNAME.sty` and
 edit it to reflect your details (e.g. address, phone number).
 
