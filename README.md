@@ -1,4 +1,4 @@
-Letter heads for the University of Alaska Fairbanks and its Geophysical Institute
+Letterheads for the University of Alaska Fairbanks and its Geophysical Institute
 =================================================================================
 
 This provides two classes, `UAFletter.cls` and `GIletter.cls`, which
