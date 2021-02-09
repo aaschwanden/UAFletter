@@ -1,0 +1,53 @@
+% --- Identification part ---
+\ProvidesPackage{GI-sturm}
+
+% --- Declaration of options ---
+\DeclareOption{german}{%
+  \PassOptionsToPackage{german}{babel}
+  \EinheitName{Geophysical Institute}
+  \EinheitInfo{Snow Ice and Permafrost}
+  \PersonName{Dr. Matthew Sturm}
+  \PersonAdresse{
+    2145 North Tanana Loop\\
+    University of Alaska Fairbanks\\
+    Fairbanks AK 99775}
+  \PersonInfo{
+    {\setlength{\tabcolsep}{0mm}
+      \begin{tabular}{@{}l@{~}l@{}}
+        Tel. direct       & +1-907-474 5257 \\
+        Fax               & +1-907-474 7290 \\
+        E-Mail            & msturm1@alaska.edu \\
+        Web               & https://www.gi.alaska.edu/research/snow-ice-and-permafrost
+    \end{tabular}
+    }}
+  \Ort{Fairbanks}
+}
+
+\DeclareOption{english}{%
+  \PassOptionsToPackage{english}{babel}
+  \EinheitName{Geophysical Institute}
+  \EinheitInfo{Snow Ice and Permafrost}
+  \PersonName{Dr. Matthew Sturm}
+  \PersonAdresse{
+    2145 North Tanana Loop\\
+    University of Alaska Fairbanks\\
+    Fairbanks AK 99775}
+  \PersonInfo{
+    {\setlength{\tabcolsep}{0mm}
+      \begin{tabular}{@{}l@{~}l@{}}
+        Tel. direct       & +1-907-474 5257 \\
+        Fax               & +1-907-474 7290 \\
+        E-Mail            & msturm1@alaska.edu \\
+        Web               & https://www.gi.alaska.edu/research/snow-ice-and-permafrost
+    \end{tabular}
+    }}
+  \Ort{Fairbanks}
+}
+
+% --- Execution of options ---
+%\ExecuteOptions{german}   % set default
+\ProcessOptions
+
+% --- Package loading
+\RequirePackage{babel}
+
