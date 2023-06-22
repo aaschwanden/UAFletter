@@ -123,6 +123,7 @@
 \newcommand{\EinheitNameText}{}
 \newcommand{\EinheitInfoText}{}
 \newcommand{\PersonNameText}{}
+\newcommand{\PersonTitleText}{}
 \newcommand{\PersonAdresseText}{}
 \newcommand{\PersonInfoText}{}
 \newcommand{\OrtText}{Z\"urich}
@@ -132,6 +133,7 @@
 \newcommand{\EinheitName}  [1]{\renewcommand{\EinheitNameText}{#1}}
 \newcommand{\EinheitInfo}  [1]{\renewcommand{\EinheitInfoText}{#1}}
 \newcommand{\PersonName}   [1]{\renewcommand{\PersonNameText}{#1}}
+\newcommand{\PersonTitle}   [1]{\renewcommand{\PersonTitleText}{#1}}
 \newcommand{\PersonAdresse}[1]{\renewcommand{\PersonAdresseText}{#1}}
 \newcommand{\PersonInfo}   [1]{\renewcommand{\PersonInfoText}{#1}}
 \newcommand{\Ort}          [1]{\renewcommand{\OrtText}{#1}}
@@ -174,9 +176,10 @@
 
         \put(90,0){\makebox(0,0)[lt]{%
           \begin{minipage}[t]{70mm}
-            {\textbf{\Large\EinheitNameText}}\\[3mm]
-            {\EinheitInfoText} \\[8mm]
-            {\xb \PersonNameText}\\[1mm]
+            {\textbf{\Large\EinheitNameText}}\\[1mm]
+            {\EinheitInfoText} \\[6mm]
+            {\xb \PersonNameText}\\[0.5mm]
+            {\PersonTitleText}\\[2mm]
             { \PersonAdresseText}\\[5mm]
            {\xiiiv \PersonInfoText}
           \end{minipage}
